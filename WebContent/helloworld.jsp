@@ -3,18 +3,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-<H1>Hellow world</H1>
-
+	<h1>Hello world !</h1>
 <%
- int num1 =5;
-int num2 = 7;
-int sum = num1 + num2;
-System.out.println(sum);
+	int num1 = 5;
+	int num2 = 7;
+	int sum = num1 + num2;
+	System.out.println(sum);
 %>
-<%= sum %>
+<%=sum %> <!-- System.out.print(sum); -->
+<a href="http://localhost:8080/web-stufdy-01/AdditionServlet01?num1=7&num2=8&no=6&name=intern">전송</a>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
